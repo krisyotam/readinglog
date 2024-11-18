@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buffetology - Kris Yotam</title>
+    <link rel="stylesheet" href="/books/css/books.css"> <!-- Universal book page styles -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1><a href="/index.html">Kris Yotam</a></h1>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/pages/html/about.html">About</a></li>
+                    <li><a href="https://docs.google.com/document/d/18lKLgNt3lO-8RDjLCqNNYW9sKbgYXGrGkAn0CRL42aE/edit?usp=sharing">Reading Log</a></li>
+                    <li><a href="https://www.goodreads.com/review/list/163025645-kris-yotam?shelf=mathematics">Shelves</a></li>
+                    <li>
+                        <label class="switch">
+                            <input type="checkbox" id="darkModeToggle">
+                            <span class="slider"></span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="book-info">
+                <div class="book-cover">
+                    <img src="/books/book-covers/buffetology.jpg" alt="Buffetology Cover">
+                </div>
+                <div class="book-details">
+                    <h2>Buffetology</h2>
+                    <p><strong>Author:</strong> Mary Buffett</p>
+                    <a href="https://www.goodreads.com/en/book/show/14500.Buffetology" target="_blank" class="goodreads-link">View on Goodreads</a>
+                </div>
+            </section>
+
+            <!-- Interactive Boxes Section -->
+            <section class="interactive-boxes">
+                <!-- Grammar Box -->
+                <div class="interactive-box">
+                    <h2>Grammar: Chapter Summaries</h2>
+                    <p><strong>Chapter 1:</strong> Buffettology begins with the exploration of Warren Buffett's investment philosophy. It explains his approach to value investing, focusing on long-term investments in companies with strong fundamentals.</p>
+                    <p><strong>Chapter 2:</strong> Mary Buffett explains the concept of economic moats and how companies with a competitive advantage in their industries are the best candidates for investment. She introduces the importance of understanding a company’s competitive edge.</p>
+                    <!-- More chapters can be added as needed -->
+                </div>
+
+                <!-- Logic Box -->
+                <div class="interactive-box">
+                    <h2>Logic: Key Themes</h2>
+                    <p><strong>Value Investing:</strong> The primary theme of *Buffetology* is the value investing strategy that Warren Buffett follows. This approach focuses on finding undervalued companies that have long-term potential for growth and profitability.</p>
+                    <p><strong>Economic Moats:</strong> A key theme is the idea of an economic moat, which represents a company’s ability to maintain a competitive advantage over its competitors. Buffett uses this concept to evaluate companies and their sustainability in the market.</p>
+                </div>
+
+                <!-- Rhetoric Box -->
+                <div class="interactive-box">
+                    <h2>Rhetoric: Analysis and Opinion</h2>
+                    <p>Mary Buffett effectively breaks down complex financial concepts into easily digestible explanations, making *Buffetology* an excellent resource for both novice and experienced investors. Her book emphasizes the long-term nature of investing, stressing the importance of patience, discipline, and thorough research in making sound financial decisions. It also provides valuable insights into the mindset of one of the most successful investors of all time, Warren Buffett.</p>
+                </div>
+
+                <!-- Book Review Box -->
+                <div class="interactive-box">
+                    <h2>Book Review: Personal Reflections</h2>
+                    <p>*Buffetology* is an insightful guide into the world of investing, particularly focused on the methods and principles that have made Warren Buffett a household name. What I particularly appreciated about the book was its clear and approachable language, making it easy to understand the concepts that might otherwise seem daunting. Whether you're an aspiring investor or just looking to understand Buffett's philosophy, this book provides a great introduction to his strategies and the principles that have made him so successful. Highly recommended for anyone interested in the world of investing!</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="container">
+        <footer class="footer">
+            <a href="https://www.goodreads.com/user/show/163025645-kris-yotam" class="source-link">Kris Yotam (@krisyotam)</a>
+            <a href="https://github.com/krisyotam/readinglog" class="source-link">Source</a>
+        </footer>
+    </div>
+
+    <script>
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+
+        darkModeToggle.addEventListener('change', () => {
+            body.classList.toggle('dark');
+        });
+    </script>
+</body>
+</html>

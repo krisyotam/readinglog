@@ -1,0 +1,279 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #111827;
+    --muted-color: #6B7280;
+    --border-color: #E5E7EB;
+}
+
+.dark {
+    --bg-color: #111827;
+    --text-color: #F3F4F6;
+    --muted-color: #9CA3AF;
+    --border-color: #374151;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+header h1:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+/* Updated nav bar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.nav-links ul li {
+    margin: 0;
+}
+
+.nav-links ul li a,
+.nav-links ul li button {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    transition: all 0.3s;
+}
+
+.nav-links ul li a:hover,
+.nav-links ul li button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 20px;
+}
+
+/* About Page Specific Styles */
+.about-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* about.css */
+strong {
+    color: #555; /* Change this to the desired monochromatic color */
+    text-decoration: none; /* Removes underline */
+    color: inherit;        /* Reverts to default text color */
+}
+
+
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.interactive-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.interactive-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.interactive-box h3 {
+    margin-top: 0;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.interactive-box p,
+.interactive-box ul {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.interactive-box ul {
+    padding-left: 20px;
+}
+
+.interactive-box ul li {
+    margin-bottom: 5px;
+}
+
+
+/* End of about page specific styles */
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(20px);
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.dark button:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--muted-color);
+    padding: 0.5rem 0;
+}
+
+td {
+    padding: 0.5rem 0;
+    border-top: 1px solid var(--border-color);
+}
+
+.date, .views {
+    font-size: 0.875rem;
+    color: var(--muted-color);
+}
+
+.title {
+    cursor: pointer;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.views {
+    text-align: right;
+}
+
+.footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: var(--muted-color);
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+footer .source-link {
+    color: var(--muted-color);
+    text-decoration: none;
+}
+
+footer .source-link:hover {
+    text-decoration: underline;
+}

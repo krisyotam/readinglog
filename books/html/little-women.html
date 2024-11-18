@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Little Women - Kris Yotam</title>
+    <link rel="stylesheet" href="/books/css/books.css"> <!-- Universal book page styles -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1><a href="/index.html">Kris Yotam</a></h1>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/pages/html/about.html">About</a></li>
+                    <li><a href="https://docs.google.com/document/d/18lKLgNt3lO-8RDjLCqNNYW9sKbgYXGrGkAn0CRL42aE/edit?usp=sharing">Reading Log</a></li>
+                    <li><a href="https://www.goodreads.com/review/list/163025645-kris-yotam?shelf=mathematics">Shelves</a></li>
+                    <li>
+                        <label class="switch">
+                            <input type="checkbox" id="darkModeToggle">
+                            <span class="slider"></span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="book-info">
+                <div class="book-cover">
+                    <img src="/books/book-covers/little-women.jpg" alt="Little Women Cover">
+                </div>
+                <div class="book-details">
+                    <h2>Little Women</h2>
+                    <p><strong>Author:</strong> Louisa May Alcott</p>
+                    <a href="https://www.goodreads.com/book/show/1934.Little_Women" target="_blank" class="goodreads-link">View on Goodreads</a>
+                </div>
+            </section>
+
+            <!-- Interactive Boxes Section -->
+            <section class="interactive-boxes">
+                <!-- Grammar Box -->
+                <div class="interactive-box">
+                    <h2>Grammar: Chapter Summaries</h2>
+                    <p><strong>Chapter 1:</strong> The March sisters—Jo, Meg, Beth, and Amy—are introduced during Christmas. They are poor but full of spirit, with their mother, Marmee, teaching them the importance of selflessness and charity.</p>
+                    <p><strong>Chapter 2:</strong> Jo struggles with her desire to be a writer and her frustrations with the limitations placed on women of her time. She bonds with her neighbor, Laurie, and begins to understand her own ambitions.</p>
+                    <!-- More chapters will be added as needed -->
+                </div>
+
+                <!-- Logic Box -->
+                <div class="interactive-box">
+                    <h2>Logic: Key Themes</h2>
+                    <p><strong>Family Bonds:</strong> The central theme of *Little Women* is the March sisters' strong familial bonds, which help them through hardships. Their unity and support for each other act as a model for resilience in difficult times.</p>
+                    <p><strong>Women’s Independence:</strong> The story reflects the societal expectations for women during the 19th century and the sisters' struggles to define themselves and their roles in the world.</p>
+                </div>
+
+                <!-- Rhetoric Box -->
+                <div class="interactive-box">
+                    <h2>Rhetoric: Analysis and Opinion</h2>
+                    <p>The author uses vivid character portrayals and emotional depth to evoke the reader's empathy for the March sisters. *Little Women* explores universal themes of love, sacrifice, and ambition, making it a timeless read for anyone seeking inspiration and understanding in the face of adversity.</p>
+                </div>
+
+                <!-- Book Review Box -->
+                <div class="interactive-box">
+                    <h2>Book Review: Personal Reflections</h2>
+                    <p>This novel is an enduring classic for a reason. Louisa May Alcott’s exploration of sisterhood, growth, and social expectations resonates with readers across generations. The March sisters’ struggles with identity, love, and independence are portrayed with emotional depth and authenticity. Each character feels real and relatable, and their stories offer valuable lessons on perseverance and compassion. Whether you're reading it for the first time or revisiting it, *Little Women* has a timeless quality that makes it a must-read for anyone seeking inspiration in life's challenges.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="container">
+        <footer class="footer">
+            <a href="https://www.goodreads.com/user/show/163025645-kris-yotam" class="source-link">Kris Yotam (@krisyotam)</a>
+            <a href="https://github.com/krisyotam/readinglog" class="source-link">Source</a>
+        </footer>
+    </div>
+
+    <script>
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+
+        darkModeToggle.addEventListener('change', () => {
+            body.classList.toggle('dark');
+        });
+    </script>
+</body>
+</html>

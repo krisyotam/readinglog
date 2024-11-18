@@ -1,0 +1,185 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #111827;
+    --muted-color: #6B7280;
+    --border-color: #E5E7EB;
+}
+
+.dark {
+    --bg-color: #111827;
+    --text-color: #F3F4F6;
+    --muted-color: #9CA3AF;
+    --border-color: #374151;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+header h1:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+/* Updated nav bar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.nav-links ul li {
+    margin: 0;
+}
+
+.nav-links ul li a,
+.nav-links ul li button {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    transition: all 0.3s;
+}
+
+.nav-links ul li a:hover,
+.nav-links ul li button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+} 
+
+
+footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: var(--muted-color);
+}
+
+footer .source-link {
+    color: var(--muted-color);
+    text-decoration: none;
+}
+
+footer .source-link:hover {
+    text-decoration: underline;
+}
+
+/* Specific styles for book pages */
+.book-info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.book-cover img {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    border-radius: 8px;
+}
+
+.book-details {
+    flex-grow: 1;
+}
+
+.book-details h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.book-details p {
+    font-size: 1.1rem;
+    color: var(--muted-color);
+}
+
+.book-details a {
+    text-decoration: none;
+    color: var(--muted-color);
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.book-details a:hover {
+    text-decoration: underline;
+}
+
+.interactive-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.interactive-box h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+.interactive-box p {
+    font-size: 1.1rem;
+    color: var(--muted-color);
+}
+
+.interactive-box ul {
+    padding-left: 20px;
+}
+
+.interactive-box ul li {
+    margin-bottom: 5px;
+}
+
+.dark .interactive-box {
+}

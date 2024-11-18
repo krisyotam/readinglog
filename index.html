@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kris Yotam's Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <h1><a href="/index.html">Kris Yotam</a></h1>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="/pages/html/about.html">About</a></li>
+                        <li><a href="https://www.goodreads.com/review/list/163025645-kris-yotam?shelf=mathematics">Shelves</a></li>
+                        <li>
+                            <label class="switch">
+                                <input type="checkbox" id="darkModeToggle">
+                                <span class="slider"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>            
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 6rem;">date</th>
+                        <th>title</th>
+                        <th style="text-align: right;">views</th>
+                    </tr>
+                </thead>
+                <tbody id="tableContent">
+                    <!-- Dynamically loaded content will be inserted here -->
+                </tbody>
+            </table>
+        </main>
+    </div>
+    <script src="pages/js/script.js"></script>
+    <script>
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+
+        darkModeToggle.addEventListener('change', () => {
+            body.classList.toggle('dark');
+        });
+    </script>
+</body>
+<div class="container">
+    <!-- Your main content here -->
+    <footer class="footer">
+      <a href="https://www.goodreads.com/user/show/163025645-kris-yotam" class="source-link">Kris Yotam (@krisyotam)</a>
+      <a href="https://github.com/krisyotam/readinglog" class="source-link">Source</a>
+    </footer>
+  </div>
+</html>
