@@ -26,6 +26,17 @@ fetch('/pages/json/books.json')
         // Get the current date
         const currentDate = new Date();
 
+        // Get the most recently modified book
+        const latestBook = booksWithLastModified[0];
+        const latestBookDate = new Date(latestBook.date);
+
+        // Create a row for the most recently modified book date at the top of the list
+        const topRow = document.createElement('tr');
+        topRow.innerHTML = `
+            <td class="date" colspan="3">Last Modified: ${latestBookDate.toISOString().split('T')[0]}</td>
+        `;
+        tableContent.appendChild(topRow); // Add it at the top of the table
+
         // Loop through the sorted data and create table rows dynamically
         booksWithLastModified.forEach(book => {
             const bookDate = new Date(book.date);
