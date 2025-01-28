@@ -1,0 +1,148 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "bookTitle": "The Ode Less Traveled",
+      "pagesRead": 33,
+      "description": "Initial reading of poetry guide",
+      "date": "2024-11-18",
+      "timeRead": "1h 30min"
+    },
+    {
+      "id": 2,
+      "bookTitle": "The Well Educated Mind",
+      "pagesRead": 15,
+      "description": "Pages 62-75",
+      "date": "2024-11-19",
+      "timeRead": "45min"
+    },
+    {
+      "id": 3,
+      "bookTitle": "The Ode Less Traveled",
+      "pagesRead": 3,
+      "description": "Pages 33-36",
+      "date": "2024-11-19",
+      "timeRead": "15min"
+    },
+    {
+      "id": 4,
+      "bookTitle": "A Mathematician's Lament",
+      "pagesRead": 13,
+      "description": "Pages 102-115",
+      "date": "2024-11-19",
+      "timeRead": "40min"
+    },
+    {
+      "id": 5,
+      "bookTitle": "KJV Revelation",
+      "pagesRead": 1,
+      "description": "Chapter 1",
+      "date": "2024-11-20",
+      "timeRead": "15min"
+    },
+    {
+      "id": 6,
+      "bookTitle": "KJV Genesis",
+      "pagesRead": 4,
+      "description": "Chapters 1-4",
+      "date": "2024-11-21",
+      "timeRead": "30min"
+    },
+    {
+      "id": 7,
+      "bookTitle": "KJV Genesis",
+      "pagesRead": 5,
+      "description": "Chapters 5-9",
+      "date": "2024-11-22",
+      "timeRead": "35min"
+    },
+    {
+      "id": 8,
+      "bookTitle": "Revelation",
+      "pagesRead": 3,
+      "description": "Chapters 1-3",
+      "date": "2024-11-23",
+      "timeRead": "25min"
+    },
+    {
+      "id": 9,
+      "bookTitle": "Revelation",
+      "pagesRead": 4,
+      "description": "Chapters 4-7",
+      "date": "2024-11-24",
+      "timeRead": "30min"
+    },
+    {
+      "id": 10,
+      "bookTitle": "Revelation",
+      "pagesRead": 5,
+      "description": "Chapters 7-11",
+      "date": "2024-11-25",
+      "timeRead": "35min"
+    },
+    {
+      "id": 11,
+      "bookTitle": "Revelation",
+      "pagesRead": 4,
+      "description": "Chapters 12-15",
+      "date": "2024-11-26",
+      "timeRead": "30min"
+    },
+    {
+      "id": 12,
+      "bookTitle": "Revelation",
+      "pagesRead": 2,
+      "description": "Chapters 16-17",
+      "date": "2024-11-27",
+      "timeRead": "20min"
+    },
+    {
+      "id": 13,
+      "bookTitle": "Proverbs",
+      "pagesRead": 6,
+      "description": "Chapters 1-6",
+      "date": "2024-11-28",
+      "timeRead": "40min"
+    },
+    {
+      "id": 14,
+      "bookTitle": "Sirach",
+      "pagesRead": 4,
+      "description": "Chapters 1-4",
+      "date": "2024-11-29",
+      "timeRead": "30min"
+    },
+    {
+      "id": 15,
+      "bookTitle": "Exodus",
+      "pagesRead": 5,
+      "description": "Chapters 1-5",
+      "date": "2024-11-30",
+      "timeRead": "35min"
+    },
+    {
+      "id": 16,
+      "bookTitle": "A Mathematician's Lament",
+      "pagesRead": 25,
+      "description": "Pages 115-140",
+      "date": "2024-12-08",
+      "timeRead": "1h"
+    },
+    {
+      "id": 17,
+      "bookTitle": "Psalms",
+      "pagesRead": 5,
+      "description": "Chapters 1-5",
+      "date": "2024-12-09",
+      "timeRead": "30min"
+    },
+    {
+      "id": 18,
+      "bookTitle": "Psalms",
+      "pagesRead": 5,
+      "description": "Chapters 6-10",
+      "date": "2024-12-10",
+      "timeRead": "30min"
+    }
+  ]
+}

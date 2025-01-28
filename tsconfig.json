@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "target": "ESNext", // Updated for better compatibility with modern features
+    "skipLibCheck": true, // To prevent issues with third-party type definitions
+    "strict": true, // Ensures strict type-checking
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "ESNext", // Ensures compatibility with Next.js
+    "moduleResolution": "node", // Standard Node.js module resolution
+    "resolveJsonModule": true,
+    "isolatedModules": true, // Ensures that each file is treated as a separate module
+    "jsx": "preserve", // Use React's modern JSX runtime
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ] // Allows shorthand imports
+    },
+    "allowSyntheticDefaultImports": true, // Helps avoid React import issues
+    "forceConsistentCasingInFileNames": true // Enforces consistent casing in imports
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ] // Excludes unnecessary directories
+}
