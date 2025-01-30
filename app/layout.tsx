@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 // Define metadata for the app
 export const metadata = {
   title: "Reading Tracker",
-  description: "Track your reading progress and manage your book collection",
+  description: "View my reading progress and my book collection",
 };
 
 // Define the RootLayout component with correct typing for children
