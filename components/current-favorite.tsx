@@ -46,7 +46,7 @@ export function CurrentFavorite() {
         coverUrl={book.cover}
         title={book.title}
         subtitle={book.subtitle}
-        author={book.authors.map((a) => a.name).join(", ")}
+        author={book.authors.map((a: { name: string }) => a.name).join(", ")}
         rating={0}
       />
     </div>
