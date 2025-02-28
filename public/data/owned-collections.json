@@ -1,0 +1,35 @@
+{
+  "collections": [
+    {
+      "id": "1",
+      "name": "Great Books of the Western World",
+      "description": "A series of books that are considered to be among the most important and influential works of literature, philosophy, and science in Western civilization.",
+      "bookCount": 54
+    },
+    {
+      "id": "2",
+      "name": "Harvard Classics",
+      "description": "A 51-volume anthology of classic works from world literature, compiled and edited by Harvard University president Charles W. Eliot.",
+      "bookCount": 51
+    },
+    {
+      "id": "3",
+      "name": "Penguin Classics",
+      "description": "A curated collection of classic literature published by Penguin Books, featuring a wide range of authors and genres.",
+      "bookCount": 1000
+    },
+    {
+      "id": "4",
+      "name": "Oxford World's Classics",
+      "description": "A series of classic literature books published by Oxford University Press, known for their scholarly introductions and comprehensive notes.",
+      "bookCount": 750
+    },
+    {
+      "id": "5",
+      "name": "Library of America",
+      "description": "A nonprofit publisher dedicated to publishing, and keeping in print, authoritative editions of America's best and most significant writing.",
+      "bookCount": 300
+    }
+  ]
+}
+

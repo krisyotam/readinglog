@@ -1,0 +1,45 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "bookTitle": "The Catcher in the Rye",
+      "pagesRead": 50,
+      "description": "Introduced to Holden Caulfield and his cynical worldview.",
+      "date": "2023-05-15",
+      "timeRead": "45min"
+    },
+    {
+      "id": 2,
+      "bookTitle": "To Kill a Mockingbird",
+      "pagesRead": 75,
+      "description": "Scout's first day at school and introduction to Boo Radley.",
+      "date": "2023-05-16",
+      "timeRead": "1h 15min"
+    },
+    {
+      "id": 3,
+      "bookTitle": "1984",
+      "pagesRead": 60,
+      "description": "Winston's initial thoughts on Big Brother and the Party.",
+      "date": "2023-05-17",
+      "timeRead": "55min"
+    },
+    {
+      "id": 4,
+      "bookTitle": "Pride and Prejudice",
+      "pagesRead": 40,
+      "description": "Introduction to the Bennet family and Mr. Darcy.",
+      "date": "2023-05-18",
+      "timeRead": "30min"
+    },
+    {
+      "id": 5,
+      "bookTitle": "The Great Gatsby",
+      "pagesRead": 55,
+      "description": "Nick Carraway moves to West Egg and meets Gatsby.",
+      "date": "2023-05-19",
+      "timeRead": "1h"
+    }
+  ]
+}
+

@@ -1,0 +1,80 @@
+{
+  "collections": [
+    {
+      "id": "1",
+      "title": "Great Books of the Western World",
+      "description": "A series of books that are considered to be among the most important and influential works of literature, philosophy, and science in Western civilization.",
+      "books": [
+        {
+          "id": "gb1",
+          "title": "The Iliad",
+          "author": "Homer",
+          "cover": "/placeholder.svg"
+        },
+        {
+          "id": "gb2",
+          "title": "The Republic",
+          "author": "Plato",
+          "cover": "/placeholder.svg"
+        },
+        {
+          "id": "gb3",
+          "title": "Hamlet",
+          "author": "William Shakespeare",
+          "cover": "/placeholder.svg"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Harvard Classics",
+      "description": "A 51-volume anthology of classic works from world literature, compiled and edited by Harvard University president Charles W. Eliot.",
+      "books": [
+        {
+          "id": "hc1",
+          "title": "The Autobiography of Benjamin Franklin",
+          "author": "Benjamin Franklin",
+          "cover": "/placeholder.svg"
+        },
+        {
+          "id": "hc2",
+          "title": "The Odyssey",
+          "author": "Homer",
+          "cover": "/placeholder.svg"
+        },
+        {
+          "id": "hc3",
+          "title": "Don Quixote",
+          "author": "Miguel de Cervantes",
+          "cover": "/placeholder.svg"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Penguin Classics",
+      "description": "A curated collection of classic literature published by Penguin Books, featuring a wide range of authors and genres.",
+      "books": [
+        {
+          "id": "pc1",
+          "title": "Pride and Prejudice",
+          "author": "Jane Austen",
+          "cover": "/placeholder.svg"
+        },
+        {
+          "id": "pc2",
+          "title": "1984",
+          "author": "George Orwell",
+          "cover": "/placeholder.svg"
+        },
+        {
+          "id": "pc3",
+          "title": "The Great Gatsby",
+          "author": "F. Scott Fitzgerald",
+          "cover": "/placeholder.svg"
+        }
+      ]
+    }
+  ]
+}
+

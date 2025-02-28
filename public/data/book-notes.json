@@ -1,0 +1,85 @@
+{
+  "bookNotes": [
+    {
+      "title": "A Mathematician's Lament",
+      "author": "Paul Lockhart",
+      "year": 2009,
+      "coverImage": "/books/book-covers/math-lament-paul-lockhart.jpg",
+      "goodreadsLink": "https://www.goodreads.com/book/show/6232657-a-mathematician-s-lament",
+      "grammar": {
+        "part1": "Critique of modern mathematics education's mechanical approach and loss of creativity.",
+        "part2": "The importance of fostering creativity and understanding over memorization and rote learning."
+      },
+      "logic": "Lockhart argues that mathematics should be approached as a form of creative expression and discovery, emphasizing the importance of problem-solving over memorization. The logic of mathematics, he believes, is best understood through exploration and intuition rather than abstract rules imposed from above.",
+      "rhetoric": "Lockhart's rhetoric is passionate and persuasive, aiming to convince readers of the intrinsic beauty of mathematics. His tone is both critical and hopeful, using vivid examples to highlight the flaws of current educational methods while urging for a return to a more engaging and intellectual approach to learning mathematics.",
+      "review": "Lockhart's critique of modern mathematics education deeply resonates with me. He exposes how the subject has been reduced to rote memorization and mechanical procedures, stripping it of its creativity and beauty. I fully agree with his approach of allowing students to derive their own solutions and discover mathematical rules and laws based on the problems they are solving. This method would be excellent for introductory courses or non-math majors, fostering deeper engagement and appreciation. However, for mathematics majors, such a system would only work if introduced rigorously and at an early age. That said, I believe everyone's introduction to mathematics should mirror Lockhart's vision. Structured discovery through carefully chosen problems, paired with a Socratic method of questioning, can make learning mathematics both intuitive and meaningful. While this approach may not suit every context, it reminds us of the need to rekindle curiosity and creativity in math education."
+    },
+    {
+      "title": "Buffetology",
+      "author": "Mary Buffett",
+      "year": 1997,
+      "coverImage": "To be finished later",
+      "goodreadsLink": "To be finished later",
+      "grammar": "To be finished later",
+      "logic": "To be finished later",
+      "rhetoric": "To be finished later",
+      "review": "To be finished later"
+    },
+    {
+      "title": "Quantum Bullsh*t",
+      "author": "Chris Ferrie",
+      "year": 2023,
+      "coverImage": "To be finished later",
+      "goodreadsLink": "To be finished later",
+      "grammar": "To be finished later",
+      "logic": "To be finished later",
+      "rhetoric": "To be finished later",
+      "review": "To be finished later"
+    },
+    {
+      "title": "Think",
+      "author": "Simon Blackburn",
+      "year": 1999,
+      "coverImage": "To be finished later",
+      "goodreadsLink": "To be finished later",
+      "grammar": "To be finished later",
+      "logic": "To be finished later",
+      "rhetoric": "To be finished later",
+      "review": "To be finished later"
+    },
+    {
+      "title": "The Well-Educated Mind",
+      "author": "Susan Wise Bauer",
+      "year": 2003,
+      "coverImage": "To be finished later",
+      "goodreadsLink": "To be finished later",
+      "grammar": "To be finished later",
+      "logic": "To be finished later",
+      "rhetoric": "To be finished later",
+      "review": "To be finished later"
+    },
+    {
+      "title": "The Complete Poems of Emily Dickinson",
+      "author": "Emily Dickinson",
+      "year": 1960,
+      "coverImage": "To be finished later",
+      "goodreadsLink": "To be finished later",
+      "grammar": "To be finished later",
+      "logic": "To be finished later",
+      "rhetoric": "To be finished later",
+      "review": "To be finished later"
+    },
+    {
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "year": 1868,
+      "coverImage": "To be finished later",
+      "goodreadsLink": "To be finished later",
+      "grammar": "To be finished later",
+      "logic": "To be finished later",
+      "rhetoric": "To be finished later",
+      "review": "To be finished later"
+    }
+  ]
+}
+
